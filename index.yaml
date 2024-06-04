@@ -3,7 +3,7 @@ entries:
   demo-helm-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-04T18:38:50.131181146Z"
+    created: "2024-06-04T18:43:10.644183574Z"
     description: A Helm chart for Kubernetes
     digest: f1057e77580a91e96b9488e848f37970878f8fdf482e1f44541c7bcf985d5d7a
     name: demo-helm-chart
@@ -11,4 +11,15 @@ entries:
     urls:
     - demo-helm-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2024-06-04T18:38:50.124502586Z"
+  demo-helm-chart-second:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-06-04T18:43:10.646320127Z"
+    description: A Helm chart for Kubernetes
+    digest: 765754ee871a1a3a6c714e3c0e239c5284fb5c6cb77ed0351b50170aab04892f
+    name: demo-helm-chart-second
+    type: application
+    urls:
+    - demo-helm-chart-second-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-06-04T18:43:10.643203018Z"
