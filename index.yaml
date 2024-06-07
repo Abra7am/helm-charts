@@ -1,0 +1,37 @@
+apiVersion: v1
+entries:
+  demo-helm-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-06-07T14:59:25.865022206Z"
+    description: A Helm chart for Kubernetes
+    digest: f1057e77580a91e96b9488e848f37970878f8fdf482e1f44541c7bcf985d5d7a
+    name: demo-helm-chart
+    type: application
+    urls:
+    - demos/demo-helm-chart-0.1.0.tgz
+    version: 0.1.0
+  demo-helm-chart-second:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-06-07T14:59:25.867205715Z"
+    description: A Helm chart for Kubernetes
+    digest: 765754ee871a1a3a6c714e3c0e239c5284fb5c6cb77ed0351b50170aab04892f
+    name: demo-helm-chart-second
+    type: application
+    urls:
+    - demos/demo-helm-chart-second-0.1.0.tgz
+    version: 0.1.0
+  phonebook-k8s-chart:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2024-06-07T14:59:25.86760161Z"
+    description: A Helm chart for Phonebook project developed with Flask and running
+      on K8s
+    digest: 31e7fc38fb13dee6baafe9db4ce8e8e6428e9a0a8a6eaff20207687e3f7b4ee8
+    name: phonebook-k8s-chart
+    type: application
+    urls:
+    - phonebook-k8s-chart/phonebook-k8s-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-06-07T14:59:25.863328264Z"

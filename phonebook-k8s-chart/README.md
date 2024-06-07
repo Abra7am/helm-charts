@@ -1,6 +1,6 @@
 ```bash
 helm repo add helm-charts https://raw.githubusercontent.com/Abra7am/helm-charts/main
-helm install phonebook-app helm-charts/phonebook-k8s-chart
+helm install phonebook-k8s-chart helm-charts/phonebook-k8s-chart
 ```
 
 - To use your own images execute the following;
