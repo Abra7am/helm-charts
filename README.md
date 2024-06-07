@@ -6,5 +6,5 @@ helm install phonebook-chart helm-charts/phonebook-chart
 - To use your own images run below commands;
 
 ```bash
-helm install phonebook-chart helm-charts --set webserver_image=<image_name>  --set resultserver_image=<image_name>
+helm install phonebook-chart helm-charts/phonebook-chart --set webserver_image=<image_name>  --set resultserver_image=<image_name>
 ```
